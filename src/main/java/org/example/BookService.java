@@ -5,9 +5,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class BookService {
-    private List<Book> bookDatabase = new ArrayList<>(); // A list to simulate a book database
+    public static List<Book> bookDatabase = new ArrayList<>(); // A list to simulate a book database
 
-    public List<Book> searchBook(String keyword) {
+    public static List<Book> searchBook(String keyword) {
         // Search book by title, author, or genre
         return bookDatabase.stream()
                 .filter(book -> book.getTitle().contains(keyword) ||
@@ -32,7 +32,7 @@ public class BookService {
         return true; // Review added successfully
     }
 
-    public boolean addBook(Book book) {
+    public static boolean addBook(Book book) {
         if (bookDatabase.contains(book)) {
             return false; // Book is already in the database
         }

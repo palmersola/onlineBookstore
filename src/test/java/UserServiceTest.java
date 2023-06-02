@@ -6,6 +6,8 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 public class UserServiceTest {
 
+
+
     private static final User USER = new User("PalmerSola", "Test123", "palmersola@gmail.com");
 
 
@@ -35,13 +37,13 @@ public class UserServiceTest {
         Assertions.assertFalse(actualReturn);
     }
 
-//    @DisplayName("registerUser() edge case")
-//    @Test
-//    public void edgeCaseRegisterUserTest(){
-//        boolean actualReturn = UserService.registerUser();
-//        System.out.println(actualReturn);
-//        Assertions.assertNull(actualReturn);
-//    }
+    @DisplayName("registerUser() edge case")
+    @Test
+    public void edgeCaseRegisterUserTest(){
+        boolean actualReturn = UserService.registerUser();
+        System.out.println(actualReturn);
+        Assertions.assertNull(actualReturn);
+    }
 
 
     //loginUser()

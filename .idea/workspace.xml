@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a8bc20a-18d2-4220-bada-15c6673c3625" name="Changes" comment="Initial commit. Added starter code.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BookServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UserServiceTest.java" afterDir="false" />
+    <list default="true" id="2a8bc20a-18d2-4220-bada-15c6673c3625" name="Changes" comment="added userservicetest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BookServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +56,16 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="BookServiceTest.correctSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnlineBookstore" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BookServiceTest" />
+      <option name="METHOD_NAME" value="correctSearchTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserServiceTest.correctLoginUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnlineBookstore" />
       <option name="PACKAGE_NAME" value="" />
@@ -78,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookServiceTest.correctSearchTest" />
         <item itemvalue="JUnit.UserServiceTest.correctRegisterUserTest" />
         <item itemvalue="JUnit.UserServiceTest.correctLoginUserTest" />
       </list>
@@ -91,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685661369945</updated>
-      <workItem from="1685661371173" duration="10202000" />
+      <workItem from="1685661371173" duration="15548000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Added starter code.">
       <created>1685661848719</created>
@@ -100,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685661848719</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added userservicetest">
+      <created>1685740506637</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685740506637</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit. Added starter code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit. Added starter code." />
+    <MESSAGE value="added userservicetest" />
+    <option name="LAST_COMMIT_MESSAGE" value="added userservicetest" />
   </component>
 </project>
